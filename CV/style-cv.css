@@ -1,0 +1,351 @@
+/*ESTO PERTENECE AL SECTOR DERECHO*/
+/*MI NOMBRE - FRONTEND DEVELOPER*/
+body {
+    background: #EDEDED;
+    font-family:cursive
+}
+
+.container {
+    background: #EDEDED;
+}
+
+.cabecera {
+    background: #FFFFFF;
+    display: block;
+    height: 1190px;
+    justify-content: justify;
+    margin-left: 230px;
+    width: 875px;
+}
+
+.me {
+    align-items: center;
+    border-radius: 24px;
+    color: #464646;
+    font-size: 50px;
+    font-weight: 350;
+    margin-left: 500px;
+    padding-top: 40px;
+    text-align: center;
+    width: 240px;
+}
+
+.subtitulo {
+    background: lightblue;
+    border-radius: 24px;
+    color: #000000;
+    height: 40px;
+    margin-left: 430px; 
+    margin-top: -10px;
+    padding-top: .9rem;
+    text-align: center;
+    width: 370px;  
+}
+
+/*LENGUAJES Y HERRAMIENTAS*/
+.lenguajes {
+    display: inline;
+}
+
+.lenguajes-herramientas {
+    background: lightgray;
+    border-radius: 24px;
+    color: #464646;
+    height: 40px;
+    margin-left: 620px; 
+    margin-top: -880px;
+    padding-top: .8rem;
+    text-align: center;
+    width: 450px; 
+}
+
+.lenguaje {
+    display: block;
+    margin-left: 650px; 
+    width: 440px;   
+}
+
+.javascript, .html, .css, .figma, .nodejs, .github, .git, .java, .SQL-MYSQL {
+    color: #464646;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 8px;
+}
+
+/*PROYECTOS*/
+.proyecto {
+    display: inline;
+}
+
+.mis-proyectos {
+    background: lightgray;
+    border-radius: 24px;
+    color: #464646;
+    height: 40px;
+    margin-left: 620px; 
+    margin-top: 60px;
+    padding-top: .9rem;
+    text-align: center;
+    width: 450px; 
+}
+
+.proyectos {
+    color: #464646;
+    margin-left: 650px;
+    margin-top: 30px;
+    width: 400px;   
+}
+
+.codificador {
+    list-style: inside;
+    margin-left: -23px;
+    margin-top: 20px;
+    width: 400px;  
+}
+
+.ahorcado {
+    list-style: inside;
+    margin-left: -23px;
+    margin-top: 20px;
+    width: 555px;
+}
+
+/*ESTUDIOS*/
+.estudio {
+    display: inline;
+}
+
+.estudios {
+    background: lightgray;
+    border-radius: 24px;
+    color: #464646;
+    height: 40px;
+    margin-left: 620px; 
+    margin-top: 40px;
+    padding-top: .8rem;
+    text-align: center;
+    width: 450px; 
+}
+
+.colegio {
+    color: #000000;
+    margin-left: 660px; 
+}
+
+.colegio:hover {
+    color: #565658;
+    text-decoration: underline;
+}
+
+.secundario {
+    color: #464646;
+    margin-left: 660px; 
+}
+
+.curso {
+    color: #000000;
+    margin-left: 660px; 
+}
+
+.curso:hover {
+    color: #565658;
+    text-decoration: underline;
+}
+
+.curso-alura {
+    margin-left: 660px; 
+    color: #464646;
+}
+
+/*ESTO PERTENECE AL SECTOR IZQUIERDO*/
+.fotomia {
+    background-size: cover;
+    border: 14px solid #b0dbf3;
+    border-radius: 51%;
+    height: 210px;
+    margin: 0 auto;
+    margin-left: 50px;
+    margin-top: -167px;
+    width: 210px;
+}
+/*SOBRE MI*/
+.sobre {
+    margin-left: 15px;
+    margin-top: -1000px;
+}
+.contenedor {
+    background: lightgray;
+    border-radius: 24px;
+    height: 980px;
+    margin-left: 230px;
+    width: 350px;
+}
+
+.sobre-mi {
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 24px;
+    color: #464646;
+    display: inline-block;
+    height: 40px;
+    margin-left: 30px;
+    text-align: center;
+    padding-top: 0.8rem;
+    width: 280px;
+}
+
+.sobre_mi {
+    align-items: center;
+    color: #464646;
+    text-align: center;
+}
+
+/*HABILIDADES*/
+.habilidades {
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 24px;
+    color: #464646;
+    display: inline-block;
+    height: 40px;
+    margin-left: 30px;
+    text-align: center;
+    text-decoration: center;
+    padding-top: 0.8rem;
+    width: 280px;
+}
+
+.habilidad {
+    color: #464646;
+    margin-left: 30px;
+    margin-top: 5px;
+    list-style:none;
+}
+
+#check{
+    display: block;
+    height: 30px;
+    margin-left: -5px;
+    margin-top: -25px;
+    padding-left: 1px;
+    width: 30px;
+}
+
+/*IDIOMAS*/
+.idiomas {
+    background: #FFFFFF;
+    border-radius: 24px;
+    color: #464646;
+    display: inline-block;
+    height: 40px;
+    margin-left: 30px;
+    text-align: center;
+    text-decoration: center;
+    padding-top: 0.8rem;
+    width: 280px;
+}
+
+.idioma {
+    color: #464646;
+    display: block;
+    height: 40px;
+    margin-left: -25px;
+    padding-top: 0.3rem;
+    width: 280px;
+}
+
+.es, .en {
+    color: #464646;
+    margin-left: 50px;
+    list-style: circle;
+}
+
+/*CONTACTO*/
+.contactame {
+    margin-top: -8px;
+}
+
+.contacto {
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 24px;
+    color: #464646;
+    display: inline-block;
+    height: 40px;
+    margin-left: 30px;
+    text-align: center;
+    text-decoration: center;
+    padding-top: 0.8rem;
+    width: 280px;
+}
+
+.redes {
+    color: #464646;
+    display: block;
+    margin-left: 70px;
+    margin-top: 25px;
+    text-decoration: none;
+}
+
+.redes:hover {
+    color: darkblue;
+}
+
+#gmail {
+    display: block;
+    height: 25px;
+    margin-top: -25px;
+    padding-left: 30px;
+    width: 30px;
+}
+
+#gmail:hover {
+    color: #FF0000;
+}
+
+#github {
+    display: block;
+    height: 25px;
+    margin-top: -25px;
+    padding-left: 30px;
+    width: 30px;
+}
+
+#github:hover {
+    color: darkgrey;
+}
+
+#linkedin {
+    display: block;
+    height: 25px;
+    margin-top: -25px;
+    padding-left: 30px;
+    width: 30px;
+}
+
+#linkedin:hover {
+    color: #2A7AE4;
+}
+
+#portafolio {
+    display: block;
+    height: 25px;
+    margin-top: -25px;
+    padding-left: 30px;
+    width: 30px; 
+}
+
+#portafolio:hover {
+    color: #00a1ff;
+}
+
+#instagram {
+    display: block;
+    height: 25px;
+    margin-top: -25px;
+    padding-left: 30px;
+    width: 30px; 
+}
+
+#instagram:hover {
+    color: #ee244c;
+}
